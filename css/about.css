@@ -188,6 +188,11 @@ p {
   font-size: 15px;
   margin-bottom: 15px;
 }
+.about-main-body button:hover {
+  text-transform: uppercase;
+  background: teal;
+  color: white;
+}
 .about-bottom {
   margin: 20px 0 30px 0;
 }
