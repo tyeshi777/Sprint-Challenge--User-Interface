@@ -168,6 +168,21 @@ p {
   color: black;
 }
 .about-main {
-  margin-top: 20px 0 20px 0;
+  margin: 20px 0 20px 0;
   border-bottom: 1px dashed black;
+}
+.about-main-body section {
+  border-bottom: 1px dashed black;
+}
+.about-main-body {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: space-around;
+}
+.about-main-body button {
+  padding: 7px 22px;
+  border-radius: 4px;
+  font-size: 15px;
+  margin-bottom: 15px;
 }
