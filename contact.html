@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Sprint Challenge - Contact</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto|Rubik"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/contact.css" />
+  </head>
+  <body>
+    <div class="contact-container-page">
+      <div class="contact-heading">
+        <img src="img/lambda-black.png" alt="logo" />
+        <header>
+          <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="#">Products</a>
+            <a href="#">Blog</a>
+            <a href="contact.html">Contact</a>
+          </nav>
+        </header>
+      </div>
+      <div class="contact-form">
+        <form>
+          <section>
+            <label for="fname">First Name</label><br />
+            <input type="text" name="firstname" placeholder="First name.." />
+          </section>
+          <section>
+            <label for="lname">Last Name</label><br />
+            <input type="text" name="lastname" placeholder="Last name.." />
+          </section>
+          <section>
+            <label for="phno">Phone Number</label><br />
+            <input type="number" placeholder="Phone Number.." />
+          </section>
+          <section>
+            <label for="country">Country</label><br />
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+          </section>
+          <section>
+            <label for="subject">Subject</label><br />
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Write something.."
+              style="height:200px"
+            ></textarea>
+          </section>
+          <section>
+            <input type="submit" value="Submit" />
+          </section>
+        </form>
+      </div>
+      <footer class="contact-footer">
+        <nav>
+          <a href="home.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="#">Products</a>
+          <a href="#">Blog</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </footer>
+    </div>
+  </body>
+</html>

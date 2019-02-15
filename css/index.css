@@ -168,6 +168,9 @@ p {
   color: black;
 }
 
+.heading nav a:hover {
+  color: red;
+}
 .top-content {
   display: flex;
   flex-wrap: wrap;
