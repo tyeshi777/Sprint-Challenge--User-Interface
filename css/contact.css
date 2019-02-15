@@ -189,6 +189,7 @@ textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  background: aliceblue;
 }
 
 input[type="submit"] {
@@ -203,6 +204,7 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #45a049;
 }
+
 .contact-footer {
   width: 100%;
   background: black;
