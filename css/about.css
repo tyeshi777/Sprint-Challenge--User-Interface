@@ -187,6 +187,9 @@ p {
   margin-top: 20px;
   justify-content: space-around;
 }
+.about-main-body h2 {
+  margin-top: 15px;
+}
 .about-main-body button {
   padding: 5px 13px;
   border-radius: 10px;

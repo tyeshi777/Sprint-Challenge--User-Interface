@@ -298,7 +298,7 @@ footer nav a:hover {
     color: white;
   }
   100% {
-    background-color: chartreuse;
+    backround-color: chartreuse;
     color: darkblue;
   }
 }
