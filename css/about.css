@@ -170,6 +170,7 @@ p {
 
 .about-heading nav a:hover {
   color: red;
+  text-transform: uppercase;
 }
 .about-main {
   margin-top: 20px;
@@ -219,4 +220,8 @@ p {
 .about-footer nav a {
   color: white;
   text-decoration: none;
+}
+.about-footer nav a:hover {
+  color: red;
+  text-transform: uppercase;
 }

@@ -170,6 +170,7 @@ p {
 
 .contact-heading nav a:hover {
   color: red;
+  text-transform: uppercase;
 }
 
 .contact-form {
@@ -223,4 +224,9 @@ input[type="submit"]:hover {
 .contact-footer nav a {
   color: white;
   text-decoration: none;
+}
+
+.contact-footer nav a:hover {
+  color: red;
+  text-transform: uppercase;
 }

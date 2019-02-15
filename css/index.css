@@ -170,6 +170,7 @@ p {
 
 .heading nav a:hover {
   color: red;
+  text-transform: uppercase;
 }
 .top-content {
   display: flex;
@@ -214,33 +215,43 @@ p {
 }
 .middle-content .boxes .box.box1 {
   background: teal;
+  animation: pulse 3s infinite;
 }
 .middle-content .boxes .box.box2 {
   background: gold;
+  animation: pulse 5s infinite;
 }
 .middle-content .boxes .box.box3 {
   background: cadetblue;
+  animation: pulse 7s infinite;
 }
 .middle-content .boxes .box.box4 {
   background: coral;
+  animation: pulse 9s infinite;
 }
 .middle-content .boxes .box.box5 {
   background: crimson;
+  animation: pulse 11s infinite;
 }
 .middle-content .boxes .box.box6 {
   background: forestgreen;
+  animation: pulse 13s infinite;
 }
 .middle-content .boxes .box.box7 {
   background: darkorchid;
+  animation: pulse 15s infinite;
 }
 .middle-content .boxes .box.box8 {
   background: hotpink;
+  animation: pulse 17s infinite;
 }
 .middle-content .boxes .box.box9 {
   background: indigo;
+  animation: pulse 19s infinite;
 }
 .middle-content .boxes .box.box10 {
   background: dodgerblue;
+  animation: pulse 22s infinite;
 }
 
 .bottom-content {
@@ -274,4 +285,20 @@ footer nav {
 footer nav a {
   color: white;
   text-decoration: none;
+}
+
+footer nav a:hover {
+  color: red;
+  text-transform: uppercase;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: pink;
+    color: white;
+  }
+  100% {
+    background-color: chartreuse;
+    color: darkblue;
+  }
 }
