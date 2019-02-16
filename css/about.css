@@ -152,128 +152,66 @@ p {
   line-height: 1.4;
 }
 
-.container {
+.container-about-page {
   width: 800px;
   margin: 0 auto;
 }
 
-.heading {
+.about-heading {
   display: flex;
   align-items: baseline;
   margin-bottom: 20px;
 }
-.heading nav a {
+.about-heading nav a {
   text-decoration: none;
   margin-left: 70px;
   color: black;
 }
 
-.heading nav a:hover {
+.about-heading nav a:hover {
   color: red;
   text-transform: uppercase;
 }
-.top-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin-bottom: 20px;
+.about-main {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px dashed black;
+}
+.about-main-body section {
   border-bottom: 1px dashed black;
   margin-top: 20px;
 }
-
-.top-content .text-container {
-  width: 48%;
-  padding: 0 1%;
-  padding-bottom: 20px;
-}
-
-.middle-content {
-  margin-bottom: 20px;
-  border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-  padding: 0 2%;
-  margin-bottom: 0;
-}
-
-.middle-content .boxes {
+.about-main-body {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-  width: 12.5%;
-  height: 100px;
-  background: black;
-  margin: 20px 2.5%;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.middle-content .boxes .box.box1 {
-  background: teal;
-  animation: pulse 3s infinite;
-}
-.middle-content .boxes .box.box2 {
-  background: gold;
-  animation: pulse 5s infinite;
-}
-.middle-content .boxes .box.box3 {
-  background: cadetblue;
-  animation: pulse 7s infinite;
-}
-.middle-content .boxes .box.box4 {
-  background: coral;
-  animation: pulse 9s infinite;
-}
-.middle-content .boxes .box.box5 {
-  background: crimson;
-  animation: pulse 11s infinite;
-}
-.middle-content .boxes .box.box6 {
-  background: forestgreen;
-  animation: pulse 13s infinite;
-}
-.middle-content .boxes .box.box7 {
-  background: darkorchid;
-  animation: pulse 15s infinite;
-}
-.middle-content .boxes .box.box8 {
-  background: hotpink;
-  animation: pulse 17s infinite;
-}
-.middle-content .boxes .box.box9 {
-  background: indigo;
-  animation: pulse 19s infinite;
-}
-.middle-content .boxes .box.box10 {
-  background: dodgerblue;
-  animation: pulse 22s infinite;
-}
-
-.bottom-content {
-  display: flex;
-  margin: 0 2% 20px;
+  margin-top: 20px;
   justify-content: space-around;
 }
-
-.bottom-content .text-container {
-  padding-right: 4%;
+.about-main-body h2 {
+  margin-top: 15px;
 }
-
-.bottom-content .text-container:last-child {
-  padding-right: 0;
+.about-main-body button {
+  padding: 5px 13px;
+  border-radius: 10px;
+  font-size: 12px;
+  margin: 15px 0 15px 0;
+  border: 2px solid black;
+  font-weight: bold;
 }
-
-footer {
+.about-main-body button:hover {
+  text-transform: uppercase;
+  background: teal;
+  color: white;
+}
+.about-bottom {
+  margin: 20px 0 30px 0;
+}
+.about-footer {
   width: 100%;
   background: black;
 }
 
-footer nav {
+.about-footer nav {
   width: 60%;
   display: flex;
   justify-content: space-between;
@@ -282,23 +220,11 @@ footer nav {
   font-size: 14px;
 }
 
-footer nav a {
+.about-footer nav a {
   color: white;
   text-decoration: none;
 }
-
-footer nav a:hover {
+.about-footer nav a:hover {
   color: red;
   text-transform: uppercase;
-}
-
-@keyframes pulse {
-  0% {
-    background-color: pink;
-    color: white;
-  }
-  100% {
-    backround-color: chartreuse;
-    color: darkblue;
-  }
 }
